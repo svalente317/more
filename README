@@ -1,0 +1,10 @@
+README for "more"
+Sal Valente <svalente@mit.edu> 1995-11-29
+
+This is the "more" pager from BSD 4.3.
+According to the the source file, it was SCCS version 5.19, originally
+written in 1980, last modified at Berkely in 1988.
+This particular version has been available on Linux ftp sites for years,
+and probably has been modified many times.
+
+I added the ability to go backwards when reading from a pipe.

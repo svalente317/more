@@ -1,0 +1,22 @@
+Version info for ``more''
+
+v1.1
+
+Initial version
+
+v1.2
+
+Added the ability to read backwards on a pipe.
+
+v1.3
+
+Use Posix regex() functions.
+
+v1.32
+
+Compile on more systems.
+
+v1.4
+
+Compile on MacOS.
+Inline help file in the source code.
