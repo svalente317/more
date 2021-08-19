@@ -63,8 +63,7 @@ static inline int Getc (struct mfile *mp)
 static inline int Ungetc (int c, struct mfile *mp)
 {
     mp->file_pos--;
-    return (mp->contents != NULL ? Ungetc_contents (c, mp) :
-	    ungetc (c, mp->fp));
+    return (mp->contents != NULL ? Ungetc_contents (c, mp) : ungetc (c, mp->fp));
 }
 
 extern void Fclose (struct mfile *mp);
